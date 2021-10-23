@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/PagePadding"
+    android:orientation="vertical"
+    android:background="@color/PageBackgroundColor"
+    tools:context=".MainActivity">
+
+    <!--    button -->
+    <Button
+        android:id="@+id/ResetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/ResetButtonColor"
+        android:gravity="center"
+        android:text="@string/ResetButtonText"
+        android:textColor="@color/ResetButtonTextColor"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <!--    (background)showCat-->
+    <TextView
+        android:id="@+id/ShowCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/helpTextColor"
+        android:textSize="@dimen/catSize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    (background)-->
+    <LinearLayout
+        android:id="@+id/PageBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <!--    up-->
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/MainTextMargin">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/upText"
+                android:textSize="@dimen/helpTextSize"
+                android:textColor="@color/helpTextColor"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/upText_"
+                android:textSize="@dimen/helpTextSize_"
+                android:textColor="@color/helpTextColor"/>
+        </LinearLayout>
+        <!--    left & showText & right-->
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/leftText"
+                android:textSize="@dimen/helpTextSize"
+                android:textColor="@color/helpTextColor"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/leftText_"
+                android:textSize="@dimen/helpTextSize_"
+                android:textColor="@color/helpTextColor"/>
+            <TextView
+                android:id="@+id/CountNumber"
+                android:gravity="center"
+                android:layout_marginStart="@dimen/MainTextMarginW"
+                android:layout_marginEnd="@dimen/MainTextMarginW"
+                android:layout_width="@dimen/NumberTextViewSize"
+                android:layout_height="@dimen/NumberTextViewSize"
+                android:text="@string/catCountNumber"
+                android:textSize="@dimen/NumberTextSize"
+                android:textColor="@color/CountTextColor"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rightText_"
+                android:textSize="@dimen/helpTextSize_"
+                android:textColor="@color/helpTextColor"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rightText"
+                android:textSize="@dimen/helpTextSize"
+                android:textColor="@color/helpTextColor"/>
+        </LinearLayout>
+        <!--    down-->
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/MainTextMargin">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/downText_"
+                android:textSize="@dimen/helpTextSize_"
+                android:textColor="@color/helpTextColor"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/downText"
+                android:textSize="@dimen/helpTextSize"
+                android:textColor="@color/helpTextColor"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

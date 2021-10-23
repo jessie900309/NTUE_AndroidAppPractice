@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Homework2</string>
+    <string name="TextField1_LastNameEN">Last Name</string>
+    <string name="TextField1_LastNameTW">(姓氏)</string>
+    <string name="TextField2_FirstNameEN">First Name</string>
+    <string name="TextField2_FirstNameTW">(名字)</string>
+    <string name="TextField3_PhoneNumEN">(=^o o^=)</string>
+    <string name="TextField3_PhoneNumTW">(想不到了，寫個喵吧)</string>
+    <string name="ButtonText">submit</string>
+</resources>

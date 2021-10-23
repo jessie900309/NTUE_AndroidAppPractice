@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Homework3</string>
+    <!--    xml layout background-->
+    <string name="upText">↑</string>
+    <string name="upText_">+ 2</string>
+    <string name="downText">↓</string>
+    <string name="downText_">- 2</string>
+    <string name="leftText">←    </string>
+    <string name="leftText_"> - 1</string>
+    <string name="rightText">    →</string>
+    <string name="rightText_">+ 1 </string>
+    <string name="ResetButtonText">重置\n=^x x^=</string>
+    <string name="DefaultText">=^o o^=</string>
+    <string name="catCountNumber">0</string>
+    <!--    java Toast String-->
+    <string name="defaultMsg">(=^o o^=)</string>
+    <string name="helpMsg_Reset">一山還有一山高\n龜苓還有歸零喵</string>
+    <string name="helpMsg_Number">你目前累積了幾隻喵</string>
+    <string name="resetMsg">(=^x x^=)歸零喵</string>
+    <string name="numAdd1">(=^o o^=) +1</string>
+    <string name="numSub1">(=^o o^=) -1</string>
+    <string name="numAdd2">(=^o o^=) +2</string>
+    <string name="numSub2">(=^o o^=) -2</string>
+</resources>

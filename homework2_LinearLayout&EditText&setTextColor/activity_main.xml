@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/PageBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/PageMargin"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--    input Last name-->
+    <LinearLayout
+        android:id="@+id/TextField1Background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/TextFieldHeight">
+
+        <TextView
+            android:id="@+id/TextEditTitle1"
+            android:layout_width="@dimen/FlexExpanded"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/TextField1_LastNameEN"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <EditText
+            android:id="@+id/TextEdit1"
+            android:layout_width="@dimen/FlexExpanded"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:hint="@string/TextField1_LastNameTW" />
+    </LinearLayout>
+
+    <!--    input First Name-->
+    <LinearLayout
+        android:id="@+id/TextField2Background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/TextFieldHeight">
+
+        <TextView
+            android:id="@+id/TextEditTitle2"
+            android:layout_width="@dimen/FlexExpanded"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/TextField2_FirstNameEN"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <EditText
+            android:id="@+id/TextEdit2"
+            android:layout_width="@dimen/FlexExpanded"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:hint="@string/TextField2_FirstNameTW" />
+    </LinearLayout>
+
+    <!--    input PhoneNumber-->
+    <LinearLayout
+        android:id="@+id/TextField3Background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/TextFieldHeight">
+
+        <TextView
+            android:id="@+id/TextEditTitle3"
+            android:layout_width="@dimen/FlexExpanded"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/TextField3_PhoneNumEN"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <EditText
+            android:id="@+id/TextEdit3"
+            android:layout_width="@dimen/FlexExpanded"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:hint="@string/TextField3_PhoneNumTW" />
+    </LinearLayout>
+
+    <!--    submit form-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonText"
+            android:gravity="center"
+            android:onClick="getValues" />
+    </LinearLayout>
+
+    <!--    show result-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+
