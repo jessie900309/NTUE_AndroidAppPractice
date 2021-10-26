@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity
         //CountNumber
         countNumber = (TextView) findViewById(R.id.CountNumber);
         countNumber.setOnLongClickListener(this);
+        countNumber.setTextSize(50);
         //ShowCat
         showCat = (TextView) findViewById(R.id.ShowCat);
     }
@@ -108,9 +109,13 @@ public class MainActivity extends AppCompatActivity
         showCatS = "";
         if(count>=0){
             for(int i=0;i<count;i++){ showCatS = showCatS + "(=^o o^=)"; }
+            if(count<100) {countNumber.setTextSize(50);}
+            if(count>=100) {countNumber.setTextSize(35);}
         }
         if(count<0){
             for(int i=0;i>count;i--){ showCatS = showCatS + "(=^x x^=)"; }
+            if(count>-10) {countNumber.setTextSize(50);}
+            if(count<=-10) {countNumber.setTextSize(35);}
         }
         showCat.setText(showCatS);
     }

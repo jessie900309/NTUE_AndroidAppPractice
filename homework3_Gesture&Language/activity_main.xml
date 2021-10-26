@@ -84,7 +84,6 @@
                 android:layout_width="@dimen/NumberTextViewSize"
                 android:layout_height="@dimen/NumberTextViewSize"
                 android:text="@string/catCountNumber"
-                android:textSize="@dimen/NumberTextSize"
                 android:textColor="@color/CountTextColor"/>
             <TextView
                 android:layout_width="wrap_content"
