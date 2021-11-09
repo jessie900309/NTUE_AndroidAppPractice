@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize_L">30sp</dimen>
+    <dimen name="textSize_M">20sp</dimen>
+    <dimen name="textSize_S">12sp</dimen>
+    <dimen name="LinearLayoutPadding">15dp</dimen>
+    <dimen name="CenterBlockWidth">150dp</dimen>
+    <dimen name="CenterBlockPadding">10dp</dimen>
+    <dimen name="EndBlockPadding">5dp</dimen>
+</resources>
