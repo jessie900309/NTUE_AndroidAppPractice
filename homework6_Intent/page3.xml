@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/page3_show_path"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp"
+        android:text="(show path)"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingVertical="30dp"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:text="C"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" >
+        <Button
+            android:id="@+id/page3_to_page1"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:text="go to A"/>
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/page3_back"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:text="back (to B)"/>
+    </LinearLayout>
+
+</LinearLayout>
