@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <group android:checkableBehavior="single"></group>-->
+
+    <item
+        android:id="@+id/action_home"
+        android:checked="true"
+        android:title="首頁" />
+
+    <item
+        android:id="@+id/action_help"
+        android:title="使用說明" />
+
+    <!--        母元素用不到(無法點擊)-->
+    <item
+        android:id="@+id/action_settings"
+        android:title="設定">
+        <menu>
+            <item
+                android:id="@+id/settings_subitem1"
+                android:title="設定OuO ???" />
+            <item
+                android:id="@+id/settings_subitem2"
+                android:title="設定OAO!?!?" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_about"
+        android:title="關於">
+        <menu>
+            <item
+                android:id="@+id/about_subitem1"
+                android:title="關於OuO ???" />
+            <item
+                android:id="@+id/about_subitem2"
+                android:title="關於OAO!?!?" />
+        </menu>
+
+    </item>
+
+</menu>
