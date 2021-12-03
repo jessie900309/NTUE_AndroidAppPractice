@@ -4,7 +4,6 @@
     <dimen name="ButtonMargin">20dp</dimen>
     <dimen name="MainTextMargin">50dp</dimen>
     <dimen name="MainTextMarginW">80dp</dimen>
-<!--    <dimen name="NumberTextSize">50sp</dimen>-->
     <dimen name="NumberTextViewSize">80dp</dimen>
     <dimen name="helpTextSize">35dp</dimen>
     <dimen name="helpTextSize_">25dp</dimen>
