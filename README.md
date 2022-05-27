@@ -1,4 +1,4 @@
-# NTUE_NTUE_AndroidAppPractice
+# NTUE_AndroidAppPractice
 
 ###### tags: `NTUE_SchoolHomework`
 
